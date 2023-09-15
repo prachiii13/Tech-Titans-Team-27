@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career Companion</title>
+    <link rel="icon" type="image/png" href="favicon1.png" size="32x32">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Career Companion</h1>
+    </header>
+
+    <section id="pomodoro">
+        <h2>Pomodoro Timer</h2>
+        <div id="timer">
+            <span id="minutes">25</span>:<span id="seconds">00</span> <br \>
+            <span id="minutes">45</span>:<span id="seconds">00</span>
+        </div>
+        <button id="startTimer">Start</button>
+        <button id="resetTimer">Reset</button>
+    </section>
+
+    <section id="mcqTest">
+        <h2>Career Guidance Test</h2>
+        <p>Answer the following question:</p>
+        <div id="question">
+            What is your preferred work environment?
+            <ul>
+                <li><input type="radio" name="answer" value="office">Office</li>
+                <li><input type="radio" name="answer" value="home">Home</li>
+                <li><input type="radio" name="answer" value="outdoors">Outdoors</li>
+            </ul>
+        </div>
+        <button id="submitAnswer">Submit</button>
+        <p id="result"></p>
+    </section>
+
+    <script src="Script.js"></script>
+
+</body>
+</html>
